@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AQUA / LJUBLJANA — Vodoinštalacije</title>
+<meta name="description" content="AQUA Ljubljana – profesionalne vodoinštalacije, popravila, prenove kopalnic, ogrevanje in odtoki.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#070b0e;--panel:#10181d;--white:#f4f7f8;--muted:#8e9aa0;--line:rgba(255,255,255,.11);--blue:#50d9ff;--max:1380px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:Manrope,Arial,sans-serif}a{color:inherit;text-decoration:none}
+header{height:76px;padding:0 5%;display:flex;align-items:center;justify-content:space-between;position:fixed;inset:0 0 auto;background:rgba(7,11,14,.82);backdrop-filter:blur(16px);z-index:20;border-bottom:1px solid var(--line)}
+.logo{font-weight:800;font-size:21px;letter-spacing:-1px}.logo b{color:var(--blue);font-size:29px}.logo small{font:9px "DM Mono";color:#738087;letter-spacing:1px;margin-left:5px}
+nav{display:flex;gap:32px}nav a,.phone,.eyebrow,.number,small{font:10px "DM Mono";letter-spacing:1.5px}nav a{color:#aeb8bd}nav a:hover{color:var(--blue)}.phone{color:var(--blue);border:1px solid rgba(80,217,255,.35);padding:12px 15px}.menu{display:none;background:none;border:0;color:white;font-size:24px}
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,8,11,.98),rgba(4,8,11,.76) 45%,rgba(4,8,11,.25)),url("https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=2200&q=85") center/cover}.hero-content{position:relative;width:min(var(--max),90%);margin:auto;padding-top:80px}.eyebrow{color:#9aa6aa}.eyebrow:before{content:"";display:inline-block;width:28px;border-top:2px solid var(--blue);margin-right:12px;vertical-align:middle}.hero h1{font-size:clamp(75px,12vw,170px);line-height:.8;letter-spacing:-.09em;margin:45px 0 0}.hero h1 span,em{color:var(--blue);font-style:normal}.hero p{max-width:520px;color:#adb8bd;line-height:1.7;margin-top:45px}.hero p b{color:#fff}.actions{display:flex;gap:15px;margin-top:30px}.btn{display:inline-flex;gap:35px;padding:17px 20px;font:10px "DM Mono";letter-spacing:1px}.primary{background:var(--blue);color:#061015}.secondary{border:1px solid var(--line);background:#0c1317}.rating{display:flex;align-items:center;gap:15px;margin-top:45px}.rating strong{font-size:35px}.stars{color:var(--blue);letter-spacing:3px}.rating small{color:#748087}
+.ticker{border-block:1px solid var(--line);padding:15px 0;overflow:hidden;white-space:nowrap;background:#090e12;color:#778389;font:9px "DM Mono";letter-spacing:2px}.ticker span{padding:0 25px;color:var(--blue)}
+.section{width:min(var(--max),90%);margin:auto;padding:125px 0}.heading{display:grid;grid-template-columns:.7fr 2fr 1fr;gap:40px}.number{color:var(--blue)}.heading h2{font-size:clamp(50px,7vw,95px);line-height:.86;letter-spacing:-.075em;margin:0}.heading p{color:var(--muted);line-height:1.7;font-size:13px}
+.services{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-top:75px}.card{min-height:500px;background:var(--panel);border:1px solid var(--line);position:relative;overflow:hidden;transition:.3s}.card:hover{transform:translateY(-7px);border-color:rgba(80,217,255,.4)}.photo{height:245px;background-size:cover;background-position:center}.p1{background-image:url("https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=900&q=80")}.p2{background-image:url("https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=900&q=80")}.p3{background-image:url("https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80")}.p4{background-image:url("https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=900&q=80")}.card-body{padding:24px}.card h3{font-size:21px;line-height:1.05}.card p{color:var(--muted);font-size:12px;line-height:1.7}.arrow{position:absolute;right:20px;bottom:18px;color:var(--blue);font-size:22px}
+.about{display:grid;grid-template-columns:1fr 1fr;background:var(--panel)}.about-img{min-height:650px;background:linear-gradient(90deg,transparent,#10181d),url("https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1500&q=85") center/cover}.about-copy{padding:110px 10%;display:flex;flex-direction:column;justify-content:center}.about-copy h2{font-size:clamp(55px,7vw,105px);line-height:.85;letter-spacing:-.08em;margin:40px 0 0}.about-copy p{max-width:530px;color:var(--muted);line-height:1.8;font-size:14px;margin-top:35px}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;border-top:1px solid var(--line);margin-top:50px;padding-top:25px}.facts b{display:block;font-size:16px}.facts small{color:#69757a}
+.gallery{width:min(var(--max),90%);margin:auto;padding:125px 0}.gallery h2{font-size:clamp(50px,7vw,90px);line-height:.85;letter-spacing:-.08em;margin:25px 0 0}.gallery-grid{display:grid;grid-template-columns:1.3fr .7fr .7fr;grid-template-rows:270px 270px;gap:14px;margin-top:60px}.g{background-size:cover;background-position:center}.g1{grid-row:span 2;background-image:url("https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1200&q=85")}.g2{background-image:url("https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=900&q=85")}.g3{background-image:url("https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=900&q=85")}.g4{background-image:url("https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85")}.g5{background-image:url("https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=85")}
+.reviews{background:var(--panel);padding:125px 6%}.reviews-inner{max-width:var(--max);margin:auto}.reviews h2{font-size:clamp(55px,8vw,105px);line-height:.85;letter-spacing:-.08em;margin:25px 0}.review{border-block:1px solid var(--line);padding:55px 0;display:grid;grid-template-columns:100px 2fr 1fr;align-items:center;gap:35px}.quote{font-size:100px;color:var(--blue)}.review-text{font-size:clamp(28px,4vw,55px);line-height:1.05;letter-spacing:-.05em}.review-text span{color:#606b70}.author{font:10px "DM Mono";color:#788388}
+.contact{background:var(--blue);color:#061015;padding:120px 6%}.contact-inner{max-width:var(--max);margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:90px}.contact h2{font-size:clamp(65px,9vw,135px);line-height:.78;letter-spacing:-.09em;margin:35px 0}.contact p{max-width:430px;line-height:1.7}.dark{background:#061015;color:var(--blue);margin-top:30px}.info{border-top:1px solid rgba(0,0,0,.25)}.row{padding:23px 0;border-bottom:1px solid rgba(0,0,0,.25)}.row label{font:9px "DM Mono";letter-spacing:1.5px}.row strong{display:block;margin-top:8px;line-height:1.7}.row a{text-decoration:underline;font:9px "DM Mono"}.map{height:180px;margin-top:20px;background:linear-gradient(30deg,transparent 47%,rgba(0,0,0,.15) 48%,transparent 49%),#84d8e7;position:relative;overflow:hidden}.pin{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#061015;color:var(--blue);width:45px;height:45px;border-radius:50%;display:grid;place-items:center}
+footer{min-height:110px;padding:30px 6%;display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);color:#69757a;font:9px "DM Mono";letter-spacing:1px}footer .logo{font-family:Manrope;color:#fff}
+@media(max-width:900px){nav{display:none;position:absolute;top:76px;left:0;right:0;background:#090e12;padding:25px 6%;flex-direction:column;gap:25px}nav.open{display:flex}.phone{display:none}.menu{display:block}.heading{grid-template-columns:1fr}.services{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}.about-img{min-height:480px}.gallery-grid{grid-template-columns:1fr 1fr;grid-template-rows:280px 220px 220px}.g1{grid-row:span 2}.g5{grid-column:span 2}.contact-inner{grid-template-columns:1fr}.review{grid-template-columns:80px 1fr}.author{grid-column:2}}
+@media(max-width:600px){.hero h1{font-size:21vw}.actions{flex-direction:column}.services{grid-template-columns:1fr}.section,.gallery{padding:85px 0}.gallery-grid{grid-template-columns:1fr;grid-template-rows:repeat(5,220px)}.g1,.g5{grid-column:auto;grid-row:auto}.about-copy{padding:80px 7%}.facts{grid-template-columns:1fr}.reviews{padding:85px 7%}.review{grid-template-columns:1fr}.author{grid-column:auto}.contact{padding:85px 7%}.contact-inner{gap:55px}footer{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+
+<header>
+<a class="logo" href="#top"><b>ϟ</b> AQUA <small>/ LJUBLJANA</small></a>
+<nav id="nav"><a href="#storitve">STORITVE</a><a href="#o-nas">O NAS</a><a href="#mnenja">MNENJA</a><a href="#kontakt">KONTAKT</a></nav>
+<a class="phone" href="tel:+38631555120">☎ 031 555 120 ↗</a>
+<button class="menu" id="menu">☰</button>
+</header>
+
+<section class="hero" id="top">
+<div class="hero-content">
+<div class="eyebrow">VODOINSTALACIJE · LJUBLJANA</div>
+<h1>VODA,<br><span>BREZ SKRBI.</span></h1>
+<p>Profesionalne vodoinštalacije za domove, poslovne prostore in prenove. <b>Hitro. Čisto. Zanesljivo.</b></p>
+<div class="actions"><a class="btn primary" href="tel:+38631555120">POKLIČI NAS →</a><a class="btn secondary" href="#storitve">RAZIŠČI STORITVE ↓</a></div>
+<div class="rating"><strong>4.9</strong><span class="stars">★★★★★</span><small>47 OCEN</small></div>
+</div>
+</section>
+
+<div class="ticker">VODOINSTALACIJE <span>✦</span> PUŠČANJE VODE <span>✦</span> OGREVANJE <span>✦</span> KOPALNICE <span>✦</span> ODTOKI <span>✦</span> NUJNA POPRAVILA <span>✦</span> LJUBLJANA <span>✦</span> VODOINSTALACIJE <span>✦</span></div>
+
+<section class="section" id="storitve">
+<div class="heading"><div class="number">01 / STORITVE</div><h2>VSE, KAR<br>ZAHTEVA <em>VODO.</em></h2><p>Od majhnega puščanja do celotne prenove vodovodne napeljave. Poskrbimo za hitro in urejeno rešitev.</p></div>
+<div class="services">
+<article class="card"><div class="photo p1"></div><div class="card-body"><div class="number">01</div><h3>VODOINSTALACIJE</h3><p>Nove vodovodne napeljave, priključki, cevi in kompletne instalacije za stanovanja, hiše in poslovne objekte.</p></div><div class="arrow">↗</div></article>
+<article class="card"><div class="photo p2"></div><div class="card-body"><div class="number">02</div><h3>NUJNA<br>POPRAVILA</h3><p>Puščanje vode, počene cevi, zamašeni odtoki in druge nepričakovane težave.</p></div><div class="arrow">↗</div></article>
+<article class="card"><div class="photo p3"></div><div class="card-body"><div class="number">03</div><h3>KOPALNICE & PRENOVE</h3><p>Vodovodni del prenove kopalnice, kuhinje in drugih prostorov.</p></div><div class="arrow">↗</div></article>
+<article class="card"><div class="photo p4"></div><div class="card-body"><div class="number">04</div><h3>OGREVANJE & ODTOKI</h3><p>Servis in montaža elementov ogrevanja ter reševanje težav z odtoki.</p></div><div class="arrow">↗</div></article>
+</div>
+</section>
+
+<section class="about" id="o-nas">
+<div class="about-img"></div>
+<div class="about-copy"><div class="eyebrow">02 / NAŠ PRISTOP</div><h2>VODA<br>BREZ <em>KOMPROMISOV.</em></h2><p>Pri vodoinštalacijah ni prostora za površnost. Vsak projekt začnemo z razumevanjem težave, poiščemo praktično rešitev in delo opravimo urejeno ter z mislijo na dolgoročno uporabo.</p><div class="facts"><div><b>4.9/5</b><small>OCENA STRANK</small></div><div><b>031 555 120</b><small>POKLIČITE NAS</small></div><div><b>LJUBLJANA</b><small>IN OKOLICA</small></div></div></div>
+</section>
+
+<section class="gallery">
+<div class="eyebrow">NAŠE DELO</div>
+<h2>PROSTORI,<br>KI <em>DELUJEJO.</em></h2>
+<div class="gallery-grid"><div class="g g1"></div><div class="g g2"></div><div class="g g3"></div><div class="g g4"></div><div class="g g5"></div></div>
+</section>
+
+<section class="reviews" id="mnenja">
+<div class="reviews-inner"><div class="eyebrow">03 / MNENJA STRANK</div><h2>4.9 <em>★★★★★</em></h2><p>Na podlagi 47 ocen</p><div class="review"><div class="quote">“</div><div class="review-text">Hitro, korektno in <span>brez nepotrebnega kompliciranja.</span></div><div class="author">STRANKA / LJUBLJANA<br><br>★★★★★</div></div></div>
+</section>
+
+<section class="contact" id="kontakt">
+<div class="contact-inner">
+<div><div class="eyebrow">04 / KONTAKT</div><h2>IMATE<br><em>TEŽAVO?</em></h2><p>Pušča pipa? Zamašen odtok? Prenavljate kopalnico? Pokličite in skupaj poiščimo rešitev.</p><a class="btn dark" href="tel:+38631555120">☎ 031 555 120 →</a></div>
+<div class="info">
+<div class="row"><label>NASLOV</label><strong>Celovška cesta 72<br>1000 Ljubljana</strong><a target="_blank" href="https://www.google.com/maps/search/?api=1&query=Celovska+cesta+72+Ljubljana">ODPRI ZEMLJEVID →</a></div>
+<div class="row"><label>DELOVNI ČAS</label><strong>PON–PET &nbsp; 08:00—18:00<br>SOBOTA &nbsp; 09:00—14:00<br>NEDELJA &nbsp; ZAPRTO</strong></div>
+<div class="row"><label>TELEFON</label><strong>031 555 120</strong><a href="tel:+38631555120">POKLIČI →</a></div>
+<div class="map"><div class="pin">●</div></div>
+</div>
+</div>
+</section>
+
+<footer><a class="logo" href="#top"><b>ϟ</b> AQUA <small>/ LJUBLJANA</small></a><span>VODOINSTALACIJE · LJUBLJANA · 2026</span><a href="#top">NA VRH ↑</a></footer>
+
+<script>
+const menu=document.getElementById("menu"),nav=document.getElementById("nav");
+menu.onclick=()=>nav.classList.toggle("open");
+document.querySelectorAll("nav a").forEach(a=>a.onclick=()=>nav.classList.remove("open"));
+</script>
+</body>
+</html>
